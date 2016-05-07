@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools"
+                tools:showIn="@layout/fragment_main_view">
+
+    <TextView
+        android:id="@+id/valuesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/palette_hex_values_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/valuesTitle">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/palette_values_container_padding_horizontal"
+            android:paddingEnd="@dimen/palette_values_container_padding_horizontal"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/primaryValueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/primary_color_value_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/primaryDarkValueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/primary_dark_color_value_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/accentValueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accent_color_value_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

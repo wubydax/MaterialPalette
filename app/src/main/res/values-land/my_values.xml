@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cursor_view_column_count">3</integer>
+    <dimen name="toolbar_height_cursor_activity">128dp</dimen>
+    <dimen name="preview_toolbar_height">92dp</dimen>
+    <dimen name="palette_from_image_nested_scroll_overlap_top">128dp</dimen>
+
+</resources>

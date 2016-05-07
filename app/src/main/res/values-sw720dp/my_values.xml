@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="main_view_margin_start">320dp</dimen>
+    <integer name="cursor_view_column_count">3</integer>
+    <dimen name="toolbar_height_cursor_activity">320dp</dimen>
+    <dimen name="swatch_card_corner_radius">9dp</dimen>
+    <dimen name="swatch_card_margin">7dp</dimen>
+    <dimen name="swatch_card_height">72dp</dimen>
+    <dimen name="preview_size_tablet">320dp</dimen>
+    <dimen name="color_preview_diameter">48dp</dimen>
+    <dimen name="content_main_padding_tab">24dp</dimen>
+    <dimen name="nav_drawer_width">320dp</dimen>
+
+
+</resources>

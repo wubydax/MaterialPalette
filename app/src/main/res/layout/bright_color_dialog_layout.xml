@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="@dimen/dialog_main_view_padding"
+            android:paddingStart="@dimen/dialog_main_view_padding"
+            android:paddingTop="@dimen/dialog_main_view_padding">
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+    <TextView
+        android:id="@+id/dialogMessageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bright_color_dialog_message"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/noShowAgainCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/dialogMessageText"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/no_show_again"/>
+
+</RelativeLayout>
+</ScrollView>

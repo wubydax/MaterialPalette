@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="2"
+              tools:context=".MainActivity"
+              tools:showIn="@layout/fragment_main_view">
+
+    <RelativeLayout
+        android:id="@+id/primaryColorPickerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.99"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/primary_color_picker_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <com.wubydax.materialpalette.views.CircleView
+            android:id="@+id/primaryColorPreview"
+            android:layout_width="@dimen/color_preview_diameter"
+            android:layout_height="@dimen/color_preview_diameter"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:fillColor="?attr/colorPrimary"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.005"
+        android:background="@android:color/darker_gray"
+        />
+
+    <RelativeLayout
+        android:id="@+id/accentColorPickerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.99"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/accent_color_picker_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <com.wubydax.materialpalette.views.CircleView
+            android:id="@+id/accentColorPreview"
+            android:layout_width="@dimen/color_preview_diameter"
+            android:layout_height="@dimen/color_preview_diameter"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:fillColor="?attr/colorAccent"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.005"
+        android:background="@android:color/darker_gray"
+        />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:background="@android:color/transparent"
+    android:fillViewport="true"
+    app:behavior_overlapTop="@dimen/palette_from_image_nested_scroll_overlap_top"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_image_palette"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/card_view_margin_image_from_palette_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="@dimen/image_from_palette_content_card_corner_radius"
+            app:cardElevation="@dimen/image_from_palette_main_content_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/swatchRecyclerView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/swatch_recycler_view_padding"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/preview_top_margin_tab_view_land">
+
+                    <include
+                        layout="@layout/preview_layout"
+                        android:layout_width="@dimen/preview_size_tablet"
+                        android:layout_height="@dimen/preview_size_tablet"
+                        android:layout_gravity="top|center"
+                        />
+                    <View
+                        android:layout_width="@dimen/preview_size_tablet"
+                        android:layout_height="@dimen/preview_size_tablet"
+                        android:background="@drawable/preview_frame"
+                        android:layout_gravity="top|center"/>
+                </FrameLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+</android.support.v4.widget.NestedScrollView>

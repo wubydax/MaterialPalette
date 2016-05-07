@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/save_dialog_padding">
+
+    <TextView
+        android:id="@+id/dialogErrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/save_dialog_error_text_size"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/saveDialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogErrorText"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="@string/save_palette_dialog_message_text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/save_dialog_message_text_size"/>
+
+    <EditText
+        android:id="@+id/saveDialogEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saveDialogMessage"
+        android:digits="abcdefghijklmnopqrstuvwxyz1234567890-_ ."
+        android:hint="@string/enter_palette_name_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textAutoComplete"
+        android:singleLine="true"/>
+
+</RelativeLayout>

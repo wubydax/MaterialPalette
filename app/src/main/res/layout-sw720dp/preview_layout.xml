@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fragment_main_view">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="13"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/statusBar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimaryDark"
+            android:contentDescription="@string/preview_image_status_bar_content_description"
+            android:src="@drawable/status_bar_template"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/appTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/preview_title_horizontal_padding"
+            android:paddingStart="@dimen/preview_title_horizontal_padding"
+            android:text="@string/application_name_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/preview_title_text_size"/>
+
+        <TextView
+            android:id="@+id/accentColorText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_margin="@dimen/preview_accent_text_margin"
+            android:text="@string/preview_text_accent_color"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/preview_accent_color_text_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_marginBottom="@dimen/preview_normal_text_margin_bottom"
+            android:layout_marginStart="@dimen/preview_normal_text_margin_start"
+            android:text="@string/preview_text_normal_text"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add"
+        android:tint="@android:color/white"
+        app:backgroundTint="?attr/colorAccent"
+        app:elevation="@dimen/fab_elevation"
+        app:layout_anchor="@id/appTitleText"
+        app:layout_anchorGravity="bottom|end"
+        />
+</android.support.design.widget.CoordinatorLayout>

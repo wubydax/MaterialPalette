@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name" translatable="false">Material Palette</string>
+
+    <!--Accessibility strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="image_for_direct_color_select_content_desc">Image for direct color select</string>
+    <string name="saved_palette_preview_content_desc">Saved palette preview</string>
+    <string name="preview_image_status_bar_content_description">Preview image status bar</string>
+    <string name="tool_bar_background_image_desc">Toolbar Background image</string>
+    <string name="navigation_drawer_header_image_content_desc">Navigation drawer header image</string>
+
+
+
+    <!--Navigation drawer menu strings-->
+    <string name="create_new_palette">Create new palette (reset colors)</string>
+    <string name="saved_palettes">Saved palettes</string>
+    <string name="load_palette_from_drive">Load palette from Drive</string>
+    <string name="load_palette_from_image">Load palette from image</string>
+    <string name="more">More</string>
+    <string name="settings">Settings</string>
+    <string name="share_preview_image">Share preview image</string>
+    <string name="send_color_xml_file">Send colors.xml file</string>
+    <string name="intent_chooser_share_file">Send file via</string>
+    <string name="capture_image_drawer_item">Capture image</string>
+    <string name="send_invite">Send App-Invites</string>
+
+    <!--Main view fragment editor strings-->
+    <string name="primary_color_picker_text">Primary Color</string>
+    <string name="accent_color_picker_text">Accent color</string>
+    <string name="palette_hex_values_title">Palette Hex Values</string>
+    <string name="primary_color_value_text">Primary color: %1$s</string>
+    <string name="primary_dark_color_value_text">Primary Dark color: %1$s</string>
+    <string name="accent_color_value_text">Accent color: %1$s</string>
+    <string name="application_name_text">Application Name</string>
+    <string name="preview_text_accent_color">Accent Color</string>
+    <string name="preview_text_normal_text">Normal Text</string>
+
+
+    <!--Menu strings-->
+    <string name="add_image_menu">Add Image</string>
+    <string name="load_selected_colors_menu">Load selected colors</string>
+    <string name="swap_main_colors_menu">Swap main colors</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="crop_image_menu">Crop image to fit</string>
+
+
+
+    <!--General dialog and toast strings-->
+    <string name="save_to_db_title">Save palette to database</string>
+    <string name="error_name_too_long">Palette name should be at least 3 characters long!</string>
+    <string name="error_palette_exists">Palette by this name already exists. Please choose a different name.</string>
+    <string name="saved_palettes_label">Saved Palettes</string>
+    <string name="bright_color_selected_dialog_title">Bright Color Selected</string>
+    <string name="bright_color_dialog_message">You have chosen a color that is too bright for white app title and other toolbar/appbar elements.
+        \n\nHave you decided to use this color for your project as primary color, please consider using Material.Light or AppCompat.Light theme for appbar elements.</string>
+    <string name="too_bright_color_button_dismiss">Duly noted</string>
+    <string name="no_show_again">Don\'t show again</string>
+    <string name="select_image_activity_dialog_title">Select preferred method of loading palette from image</string>
+    <string name="active_color_spinner_title">Active color:</string>
+    <string name="save_palette_dialog_message_text">Please choose a name for your palette.\nA name must be at least 3 characters long.\n\nBe sure to choose a meaningful name, so it will be easier for you to remember the colors you used in this palette.</string>
+    <string name="enter_palette_name_hint">Enter palette name</string>
+    <string name="added_to_db_toast">%1$s was successfully added to database</string>
+    <string name="nothing_to_upload_up_to_date_toast">You either have no saved palettes or all your palettes are synced with drive.\n\nSave new palettes and try again.</string>
+    <string name="no_show_selected_dialog_text">Selected activity will handle palette from image functionality from now on.\nYou can reset this option or select different activity from Settings.</string>
+
+
+    <!--Various code constants for callback and keys use-->
+    <string name="image_uri_key" translatable="false">image_uri</string>
+    <string name="warning_too_bright_key" translatable="false">no_bright_color_warning</string>
+    <string name="no_show_select_activity_key" translatable="false">no_show_select_activity</string>
+    <string name="image_activity_key" translatable="false">image_activity</string>
+    <string name="active_color_key" translatable="false">active_color</string>
+    <string name="request_dialog_key" translatable="false">request_dialog</string>
+    <string name="dialog_fragment_tag" translatable="false">dialog_fragment</string>
+    <string name="accent_color_key" translatable="false">accent_color</string>
+    <string name="primary_color_key" translatable="false">primary_color</string>
+    <string name="cursor_adapter_integer_list_bundle_key" translatable="false">integer_list</string>
+    <string name="is_cursor_adapter_in_select_mode_bundle_key" translatable="false">is_select_mode</string>
+    <string name="is_drive_support_enabled_key" translatable="false">is_drive</string>
+    <string name="main_folder_custom_property" translatable="false">material_palette_main_drive_folder</string>
+    <string name="first_launch_boolean_key" translatable="false">first_launch</string>
+    <string name="main_drive_folder_title" translatable="false">My Material Palettes</string>
+    <string name="drive_xml_custom_property" translatable="false">xml_custom_property</string>
+    <string name="main_folder_id_prefs" translatable="false">main_folder_id</string>
+    <string name="main_folder_custom_info" translatable="false">vr46rules</string>
+    <string name="xml_metadata_info" translatable="false">sic58</string>
+    <string name="palette_to_upload_bundle_key" translatable="false">palette_to_upload</string>
+    <string name="receiver_bundle_extra_message_key" translatable="false">extra_message</string>
+    <string name="receiver_bundle_is_success_boolean_key" translatable="false">is_success</string>
+    <string name="upload_result_prefs_key" translatable="false">upload_report</string>
+    <string name="service_bundle_key_is_verifying" translatable="false">is_verifying</string>
+    <string name="bundle_is_capture_key" translatable="false">is_capture</string>
+    <string name="drive_backup_option_pref_key" translatable="false">drive_backup_option_key</string>
+    <string name="market_intent_schema" translatable="false">market://details?id=</string>
+    <string name="mail_intent_uri_schema" translatable="false">mailto:</string>
+    <string name="dev_mail" translatable="false">6thgeardevelopment@gmail.com</string>
+    <string name="mail_subject" translatable="false">Material Palette app</string>
+    <string name="rate_us_pref_key" translatable="false">rate_us</string>
+    <string name="mail_us_pref_key" translatable="false">mail_us</string>
+    <string name="is_crop_bundle_key" translatable="false">is_crop</string>
+
+    <!--Preferences strings-->
+    <string name="drive_support_pref_summary_off">Drive support disabled</string>
+    <string name="drive_support_pref_summary_on">Drive support enabled</string>
+    <string name="drive_support_pref_title">Enable Drive support</string>
+    <string name="drive_integration_pref_category">Drive Integration</string>
+    <string name="app_defaults_pref_category">App Defaults</string>
+    <string name="too_bright_pref_summary_off">No warning dialog. Make sure the preview colors are readable</string>
+    <string name="too_bright_pref_summary_on">Warning dialog will be displayed if chosen primary color is too bright for light action bar items</string>
+    <string name="too_bright_pref_title">Color too bright warning</string>
+    <string name="image_activity_pref_summary_off">Dialog will be shown to choose preferred activity to handle images</string>
+    <string name="image_activity_pref_summary_on">Choose activity to handle images</string>
+    <string name="image_activity_master_switch_pref_title">Pre-configured image handling</string>
+    <string name="image_activity_select_list_pref_title">Choose what happens to images</string>
+    <string name="pref_category_feedback">Feedback is most welcome</string>
+    <string name="rate_on_play_pref_title">Rate us on Google Play store</string>
+    <string name="email_pref_title">E-mail developer</string>
+    <string name="no_app_installed">No app found that can handle this action</string>
+
+
+    <!--Drive related strings-->
+    <string name="client_connected_toast">Drive client is connected</string>
+    <string name="backup_saved_palettes_to_drive">Backup saved palettes to Drive</string>
+    <string name="enable_drive_dialog_message">It is highly RECOMMENDED that you enable Drive support. We WILL NOT touch any of your private files.\n\nWe work ONLY with palettes created by this app.\n\nEnabling Google Drive support will provide you with a way to comfortably upload all or some of your palettes to Drive as both colors.xml files and previews, so they can be available to you through PC client to use in your project.\n\nThis also provides you with a way to backup your saved palettes and/or load any palette created with this application at any time from our drive folder.</string>
+    <string name="enable_drive_dialog_title">Enable Google Drive Integration</string>
+    <string name="backup_options">Backup options</string>
+    <string name="button_later">Later</string>
+    <string name="button_enable">Enable</string>
+    <string name="failed_to_connect_to_drive_toast">Failed to connect to Drive</string>
+    <string name="fetching_palette_progress_dialog_title">Fetching palette</string>
+    <string name="please_wait_progress_dialog_message">Please wait…</string>
+    <string name="connecting_to_client_progress_dialog_title">Connecting to Drive</string>
+    <string name="backup_notification_content_title">Palettes backup</string>
+    <string name="backup_notification_complete">Upload complete</string>
+    <string name="backup_notification_backup_in_progress">Upload in progress…</string>
+    <string name="backup_notification_uploading_palette">Uploading %1$s</string>
+    <string name="failed_to_create_preview_image">"Failed to create preview image %1$s: "</string>
+    <string name="failed_to_create_xml_file">"Failed to create colors.xml for %1$s: "</string>
+    <string name="successfully_uploaded_palette">Successfully uploaded: %1$s</string>
+    <string name="failed_to_create_folder">"Failed to create folder %1$s: "</string>
+    <string name="all_backed_up_successfully">All uploaded successfully</string>
+    <string name="some_problem_with_backup">Some of the palettes failed to upload.</string>
+    <string name="failed_to_retrieve_saved_from_drive">"Failed to retrieve saved palettes from Drive. Reason: "</string>
+    <string name="palette_already_on_drive">Palette %1$s is already on drive.</string>
+    <string name="cancelling_backup_toast">Cancelling backup…</string>
+    <string name="drive_upload_report_dialog_title">Drive upload report</string>
+    <string name="no_info_available_upload_report">No information available</string>
+    <string name="backup_began_toast">Backup has begun. You may continue your work as usual.</string>
+    <string name="upload_successful">Upload successful</string>
+    <string name="upload_incomplete">Upload incomplete</string>
+
+
+    <!--Widget strings-->
+    <string name="widget_title">My Material Palettes</string>
+    <string name="widget_item_description">Widget item, single palette view</string>
+
+    <!--Invite strings-->
+    <string name="invite_title">Invite friends to use</string>
+    <string name="invite_message">Try \'Material Palette\' app</string>
+
+
+</resources>

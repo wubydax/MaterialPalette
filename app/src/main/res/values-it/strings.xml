@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Accessibility strings-->
+    <string name="navigation_drawer_open">Apre menù laterale</string>
+    <string name="navigation_drawer_close">Chiude menù laterale</string>
+    <string name="image_for_direct_color_select_content_desc">Immagine per la selezione diretta del colore</string>
+    <string name="saved_palette_preview_content_desc">Anteprima della tavolozza salvata</string>
+    <string name="preview_image_status_bar_content_description">Barra di stato dell\' immagine di anteprima</string>
+    <string name="tool_bar_background_image_desc">Immagine di sfondo della toolbar</string>
+    <string name="navigation_drawer_header_image_content_desc">Immagine del titolo per il menù laterale</string>
+
+
+
+    <!--Navigation drawer menu strings-->
+    <string name="create_new_palette">Nuova tavolozza (resetta i colori)</string>
+    <string name="saved_palettes">Tavolozze salvate</string>
+    <string name="load_palette_from_drive">Carica tavolozza da Drive</string>
+    <string name="load_palette_from_image">Carica tavolozza da una immagine</string>
+    <string name="more">Altro</string>
+    <string name="settings">Impostazioni</string>
+    <string name="share_preview_image">Condividi anteprima dell\' immagine</string>
+    <string name="send_color_xml_file">Invia come file il colors.xml</string>
+    <string name="intent_chooser_share_file">Invia file tramite</string>
+    <string name="capture_image_drawer_item">Scatta immagine</string>
+    <string name="send_invite">Invia invito all\' uso dell\' app</string>
+
+    <!--Main view fragment editor strings-->
+    <string name="primary_color_picker_text">Colore principale</string>
+    <string name="accent_color_picker_text">Colore cosidetto \"Accent\"</string>
+    <string name="palette_hex_values_title">Valori esadecimali dei colori della tavolozza</string>
+    <string name="primary_color_value_text">Colore principale: %1$s</string>
+    <string name="primary_dark_color_value_text">Colore principale scuro: %1$s</string>
+    <string name="accent_color_value_text">Colore \"Accent\": %1$s</string>
+    <string name="application_name_text">Nome dell\' app</string>
+    <string name="preview_text_accent_color">Colore cosidetto \"Accent\"</string>
+    <string name="preview_text_normal_text">Testo normale</string>
+
+
+    <!--Menu strings-->
+    <string name="add_image_menu">Aggiungi immagine</string>
+    <string name="load_selected_colors_menu">Carica i colori selezionati</string>
+    <string name="swap_main_colors_menu">Inverte colori</string>
+    <string name="menu_item_delete">Elimina</string>
+    <string name="crop_image_menu">Ritaglia immagine</string>
+
+
+
+    <!--General dialog and toast strings-->
+    <string name="bright_color_selected_dialog_title">Selezionati Colori chiari</string>
+    <string name="bright_color_dialog_message">Hai selezionato dei colori troppo chiari per la il testo bianco del nome della app e gli altri elementi della appbar.
+        \n\nHai deciso di usare questi colori per il colore principale, quindi poi magari prendere in considerazione l\' uso dei temi Material.Light or AppCompat.Light per gli elementi della appbar.</string>
+    <string name="too_bright_color_button_dismiss">Ok, ho capito</string>
+    <string name="no_show_again">Non mostrare più</string>
+    <string name="select_image_activity_dialog_title">Seleziona il metodo da usare per caricare una tavolozza da immagine</string>
+    <string name="active_color_spinner_title">Colori attivi:</string>
+    <string name="save_palette_dialog_message_text">Inserisci un nome per la tavolozza.\nIl nome dovrà essere almeno 3 caratteri.\n\nScegli un nome esplicativo, in modo che sia facile riconosce la tavolozza in futuro.</string>
+    <string name="enter_palette_name_hint">Inserisci il nome della tavolozza</string>
+    <string name="added_to_db_toast">%1$s è stato aggiunto con successo al database</string>
+    <string name="nothing_to_upload_up_to_date_toast">Potresti non avere tavolozze salvate o potrebbero già essere tutte sincronizzate con Drive.\n\nSalva una nuova tavolozza e riprova.</string>
+    <string name="no_show_selected_dialog_text">D\' ora in avanti verra usato il metodo selezionato per creare da immagine.\nPuoi cambiare in ogni momento questa opzione da Impostazioni.</string>
+
+
+    <!--Preferences strings-->
+    <string name="drive_support_pref_summary_off">Connessione a Drive disabilitata</string>
+    <string name="drive_support_pref_summary_on">Connessione a Drive abilitata</string>
+    <string name="drive_support_pref_title">Abilita la connesione con Drive</string>
+    <string name="drive_integration_pref_category">Integrazione di Drive</string>
+    <string name="app_defaults_pref_category">Preferenze di default</string>
+    <string name="too_bright_pref_summary_off">Nessun popup di allerta. Controlla Tu stesso che il testo e gli elementi siano visibili</string>
+    <string name="too_bright_pref_summary_on">Il popup di allerta ti avviserà se i colori che hai selezionato sono troppo chiari</string>
+    <string name="too_bright_pref_title">Avviso per colori troppo chiari</string>
+    <string name="image_activity_pref_summary_off">Un finestra si aprirà per selezionare il metodo di elaborazione delle immagini</string>
+    <string name="image_activity_pref_summary_on">Seleziona il metodo di elaborazione delle immagini</string>
+    <string name="image_activity_master_switch_pref_title">Elabora con metodo pre-configurato</string>
+    <string name="image_activity_select_list_pref_title">Seleziona cosa fare alle immagini</string>
+    <string name="pref_category_feedback">Un Feedback è molto gradito</string>
+    <string name="rate_on_play_pref_title">Valuta la app Google Play store</string>
+    <string name="email_pref_title">Invia E-mail al developer</string>
+    <string name="no_app_installed">Nessuna app trovata per completare l\'azione</string>
+
+
+    <!--Drive related strings-->
+    <string name="client_connected_toast">Drive è connesso</string>
+    <string name="backup_saved_palettes_to_drive">Backup su Drive delle tavolozze salvate</string>
+    <string name="enable_drive_dialog_message">Raccomandiamo VIVAMENTE di abilitare la connessione con Google Drive. Noi NON toccheremo nessun file privato.\n\nUtilizzeremo SOLO i file provenienti da questa app.\n\nAbilitare la connessione con Drive ti consentira di salvare le tue tavolozze come file colors.xml e come anteprima immagine, così che le possa scaricare da pc ed utilizzare nel tuo progetto.\n\nInoltre avrai modo di salvare le tavolozze create dalla app o di scaricarle in qualsiasi momento dalla cartella nella cloud.</string>
+    <string name="enable_drive_dialog_title">Abilita la connessione con Drive</string>
+    <string name="failed_to_connect_to_drive_toast">Errore di connessione con Drive</string>
+    <string name="fetching_palette_progress_dialog_title">Ricevendo tavolozza</string>
+    <string name="please_wait_progress_dialog_message">Atendere…</string>
+    <string name="connecting_to_client_progress_dialog_title">Connessione a Drive</string>
+    <string name="backup_notification_content_title">Backup tavolozze</string>
+    <string name="backup_notification_complete">Caricamento completato</string>
+    <string name="backup_notification_backup_in_progress">Caricamento in corso…</string>
+    <string name="backup_notification_uploading_palette">Caricamento di %1$s</string>
+    <string name="failed_to_create_preview_image">"Errore nella preview per: %1$s "</string>
+    <string name="failed_to_create_xml_file">"Errore creazione di colors.xml per: %1$s "</string>
+    <string name="successfully_uploaded_palette">Caricamento completato per: %1$s</string>
+    <string name="failed_to_create_folder">"Errore creazione cartella: %1$s "</string>
+    <string name="all_backed_up_successfully">Tutto caricato con successo</string>
+    <string name="some_problem_with_backup">Alcune tavolozze non sono state caricate.</string>
+    <string name="failed_to_retrieve_saved_from_drive">"Errore nel download di acune tavolozze. Motivo: "</string>
+    <string name="palette_already_on_drive">La tavolozza %1$s è gia su Drive.</string>
+    <string name="cancelling_backup_toast">Interompendo salvataggio…</string>
+    <string name="backup_began_toast">Backup è iniziato. Si può continuare a lavorare come al solito.</string>
+    <string name="drive_upload_report_dialog_title">Report di caricamento su Drive</string>
+    <string name="no_info_available_upload_report">Nessuna informazione disponibile</string>
+
+
+    <!--Widget strings-->
+    <string name="widget_title">Le mie tavolozze stile Material</string>
+    <string name="widget_item_description">Widget, visualizzazione singola</string>
+
+
+    <!--Invite strings-->
+    <string name="invite_title">Invita gli amici</string>
+    <string name="invite_message">Prova \'Material Palette\' app</string>
+    <string name="backup_options">Opzioni di backup </string>
+    <string name="button_enable">Abilita</string>
+    <string name="button_later">Dopo</string>
+    <string name="error_name_too_long">Il nome della tavolozza dovrebbe contenere almeno 3 caratteri!</string>
+    <string name="saved_palettes_label">Tavolozze salvate</string>
+    <string name="error_palette_exists">Una Tavolozza con questo nome é giá esistente. Usa un nome differente.</string>
+    <string name="save_to_db_title">Salva la tavolozza nel database </string>
+    <string name="upload_incomplete">Carica incompleta</string>
+    <string name="upload_successful">Carica di successo</string>
+
+</resources>

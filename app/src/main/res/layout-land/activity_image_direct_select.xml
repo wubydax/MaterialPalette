@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ImageDirectSelectActivity">
+
+    <TextView
+        android:id="@+id/spinnerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/active_color_text_margin_start"
+        android:text="@string/active_color_spinner_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/colorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/spinnerTitle"
+        android:layout_marginEnd="@dimen/spinner_margin_end"
+        android:layout_marginStart="@dimen/spinner_margin_start"
+        android:layout_toEndOf="@id/spinnerTitle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerTitle"
+        android:layout_margin="@dimen/image_direct_select_main_layout_margin"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75">
+
+
+            <include
+                layout="@layout/preview_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.25"
+            android:layout_height="match_parent"
+            android:paddingStart="16dp"
+            tools:ignore="RtlSymmetry">
+        <ImageView
+            android:id="@+id/testImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/image_for_direct_color_select_content_desc"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cursor_view_column_count">4</integer>
+    <dimen name="toolbar_height_cursor_activity">256dp</dimen>
+    <dimen name="preview_top_margin_tab_view_land">80dp</dimen>
+    <dimen name="main_view_margin_start">320dp</dimen>
+    <dimen name="nav_drawer_width">320dp</dimen>
+</resources>

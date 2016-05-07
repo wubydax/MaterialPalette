@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_display_activity_items">
+        <item>Seleziona un colore dalla immagine</item>
+        <item>Genera tavolozza usando la library Palette</item>
+    </string-array>
+    <string-array name="image_display_activity_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="spinner_items">
+        <item>Colore principale</item>
+        <item>Colore "Accent"</item>
+    </string-array>
+    <string-array name="drive_options_items">
+        <item>Seleziona una tavolozza</item>
+        <item>Salva tutte le tavolozze</item>
+    </string-array>
+
+</resources>

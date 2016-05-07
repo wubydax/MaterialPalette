@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/resetPalette"
+            android:icon="@drawable/ic_add"
+            android:title="@string/create_new_palette"/>
+        <item
+            android:id="@+id/savedPalettes"
+            android:icon="@drawable/ic_saved_palettes"
+            android:title="@string/saved_palettes"/>
+        <item
+            android:id="@+id/backupToDrive"
+            android:icon="@drawable/ic_upload"
+            android:title="@string/backup_saved_palettes_to_drive"/>
+        <item
+            android:id="@+id/loadFromDrive"
+            android:icon="@drawable/ic_drive"
+            android:title="@string/load_palette_from_drive"/>
+        <item
+            android:id="@+id/loadFromImage"
+            android:icon="@drawable/ic_image"
+            android:title="@string/load_palette_from_image"/>
+        <item
+            android:id="@+id/captureImage"
+            android:title="@string/capture_image_drawer_item"
+            android:icon="@drawable/ic_camera"/>
+
+    </group>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings"/>
+            <item
+                android:id="@+id/action_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share_preview_image"/>
+            <item
+                android:id="@+id/action_send"
+                android:icon="@drawable/ic_send"
+                android:title="@string/send_color_xml_file"/>
+            <item
+                android:id="@+id/action_send_invites"
+                android:icon="@drawable/ic_invite"
+                android:title="@string/send_invite"/>
+        </menu>
+    </item>
+
+</menu>

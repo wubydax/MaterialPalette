@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ImageDirectSelectActivity"
+    >
+
+    <TextView
+        android:id="@+id/spinnerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/active_color_text_margin_start"
+        android:text="@string/active_color_spinner_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/colorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/spinnerTitle"
+        android:layout_marginEnd="@dimen/spinner_margin_end"
+        android:layout_marginStart="@dimen/spinner_margin_start"
+        android:layout_toEndOf="@id/spinnerTitle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerTitle"
+        android:orientation="vertical"
+        android:padding="@dimen/image_direct_select_main_layout_margin"
+        android:weightSum="2">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <include
+                layout="@layout/preview_layout"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center"
+                android:layout_marginBottom="@dimen/image_direct_select_preview_margin_bottom"/>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center"
+                android:layout_marginBottom="@dimen/image_direct_select_preview_margin_bottom"
+                android:background="@drawable/preview_frame"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/testImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center"
+                android:contentDescription="@string/image_for_direct_color_select_content_desc"
+                android:src="@drawable/palette"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

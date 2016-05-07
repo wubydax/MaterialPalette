@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/swatch_card_height"
+    android:layout_margin="@dimen/swatch_card_margin"
+    app:cardCornerRadius="@dimen/swatch_card_corner_radius"
+    app:cardElevation="@dimen/swatch_card_elevation"/>
+

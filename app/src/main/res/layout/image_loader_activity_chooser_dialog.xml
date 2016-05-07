@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/dialog_main_view_padding"
+                android:paddingStart="@dimen/dialog_main_view_padding">
+
+    <ListView
+        android:id="@+id/dialogSelectImageViewActivityListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <CheckBox
+        android:id="@+id/showNoMoreCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/dialogSelectImageViewActivityListView"
+        android:text="@string/no_show_again"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showNoMoreCheckBox"
+        android:id="@+id/textNoShowSelected"
+        android:text="@string/no_show_selected_dialog_text"
+        android:textColor="@android:color/black"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cursor_view_column_count">2</integer>
+    <integer name="widget_grid_view_columns">3</integer>
+    <dimen name="toolbar_height_cursor_activity">192dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">192dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dialog_main_view_padding">24dp</dimen>
+    <dimen name="preview_toolbar_height">128dp</dimen>
+    <dimen name="preview_status_bar_height">24dp</dimen>
+    <dimen name="preview_title_text_size">20sp</dimen>
+    <dimen name="preview_accent_color_text_size">16sp</dimen>
+    <dimen name="swatch_card_elevation">2dp</dimen>
+    <dimen name="swatch_card_corner_radius">7dp</dimen>
+    <dimen name="swatch_card_margin">5dp</dimen>
+    <dimen name="swatch_card_height">48dp</dimen>
+    <dimen name="palette_from_image_nested_scroll_overlap_top">192dp</dimen>
+    <dimen name="card_view_margin_image_from_palette_content">10dp</dimen>
+    <dimen name="image_from_palette_content_card_corner_radius">9dp</dimen>
+    <dimen name="image_from_palette_main_content_card_elevation">5dp</dimen>
+    <dimen name="swatch_recycler_view_padding">16dp</dimen>
+    <dimen name="active_color_text_margin_start">16dp</dimen>
+    <dimen name="spinner_margin_end">16dp</dimen>
+    <dimen name="spinner_margin_start">10dp</dimen>
+    <dimen name="image_direct_select_main_layout_margin">10dp</dimen>
+    <dimen name="image_direct_select_preview_margin_bottom">10dp</dimen>
+    <dimen name="image_direct_select_preview_container_layout_margin">5dp</dimen>
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="image_palette_app_bar_height">320dp</dimen>
+    <dimen name="nav_drawer_width">320dp</dimen>
+    <dimen name="fab_z_translation">12dp</dimen>
+    <dimen name="color_preview_diameter">36dp</dimen>
+    <dimen name="cursor_item_card_margin">10dp</dimen>
+    <dimen name="cursor_item_card_corner_radius">7dp</dimen>
+    <dimen name="saved_item_checkbox_margin">5dp</dimen>
+    <dimen name="dialog_single_choice_item_text_size">16sp</dimen>
+    <dimen name="fragment_main_view_preview_container_margin">16dp</dimen>
+    <dimen name="main_view_fragment_picker_container_padding_start">16dp</dimen>
+    <dimen name="nav_hearer_text_padding">16dp</dimen>
+    <dimen name="nav_header_text_size">24sp</dimen>
+    <dimen name="palette_values_container_padding_horizontal">8dp</dimen>
+    <dimen name="preview_accent_text_margin">16dp</dimen>
+    <dimen name="preview_normal_text_margin_bottom">24dp</dimen>
+    <dimen name="preview_normal_text_margin_start">16dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="save_dialog_message_text_size">16sp</dimen>
+    <dimen name="save_dialog_padding">24dp</dimen>
+    <dimen name="save_dialog_error_text_size">16sp</dimen>
+    <dimen name="widget_title_drawable_padding">5dp</dimen>
+    <dimen name="widget_title_padding">10dp</dimen>
+    <dimen name="widget_grid_view_padding">10dp</dimen>
+    <dimen name="widget_grid_spacing">10dp</dimen>
+    <dimen name="preview_title_horizontal_padding">16dp</dimen>
+    <dimen name="saved_item_name_margin">16dp</dimen>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/drive_integration_pref_category">
+        <SwitchPreference
+            android:key="@string/is_drive_support_enabled_key"
+            android:summaryOff="@string/drive_support_pref_summary_off"
+            android:summaryOn="@string/drive_support_pref_summary_on"
+            android:title="@string/drive_support_pref_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/app_defaults_pref_category">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/warning_too_bright_key"
+            android:summaryOff="@string/too_bright_pref_summary_off"
+            android:summaryOn="@string/too_bright_pref_summary_on"
+            android:title="@string/too_bright_pref_title"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/no_show_select_activity_key"
+            android:summaryOff="@string/image_activity_pref_summary_off"
+            android:summaryOn="@string/image_activity_pref_summary_on"
+            android:title="@string/image_activity_master_switch_pref_title"/>
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="@string/no_show_select_activity_key"
+            android:entries="@array/image_display_activity_items"
+            android:entryValues="@array/image_display_activity_values"
+            android:key="@string/image_activity_key"
+            android:summary="%s"
+            android:title="@string/image_activity_select_list_pref_title"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_category_feedback">
+        <PreferenceScreen
+            android:icon="@drawable/ic_play"
+            android:key="@string/rate_us_pref_key"
+            android:title="@string/rate_on_play_pref_title"
+            />
+        <PreferenceScreen
+            android:icon="@drawable/ic_mail"
+            android:key="@string/mail_us_pref_key"
+            android:title="@string/email_pref_title"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

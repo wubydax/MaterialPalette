@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Accessibility strings-->
+    <string name="navigation_drawer_open">פתח מגירת ניוות</string>
+    <string name="navigation_drawer_close">סגירו מגירת ניווט</string>
+    <string name="image_for_direct_color_select_content_desc">תמונה עבור בחירה ישירה של צבע</string>
+    <string name="saved_palette_preview_content_desc">תצוגה של לוח צבעים שמור</string>
+    <string name="preview_image_status_bar_content_description">תמונת תצוגה של שורת מצב</string>
+    <string name="tool_bar_background_image_desc">תמונת רקע של toolbar</string>
+    <string name="navigation_drawer_header_image_content_desc">תמונת כותרת של מגירת ניווט</string>
+
+
+
+    <!--Navigation drawer menu strings-->
+    <string name="create_new_palette">צור לוח חדש (אפס צבעים)</string>
+    <string name="saved_palettes">לוחות שמורים</string>
+    <string name="load_palette_from_drive">טען לוח מDrive</string>
+    <string name="load_palette_from_image">טען לוח מתמונה</string>
+    <string name="more">אפשרויות נוספות</string>
+    <string name="settings">הגדרות</string>
+    <string name="share_preview_image">שתף תמונת תצוגה מקדימה</string>
+    <string name="send_color_xml_file">שלח קובץ  colors.xml</string>
+    <string name="intent_chooser_share_file">שלך קובץ באמצעות</string>
+    <string name="capture_image_drawer_item">צלם תמונה</string>
+    <string name="send_invite">שלח App-Invites</string>
+
+    <!--Main view fragment editor strings-->
+    <string name="primary_color_picker_text">צבע עיקרי</string>
+    <string name="accent_color_picker_text">צבע מודגש</string>
+    <string name="palette_hex_values_title">ערכי Hex של הלוח</string>
+    <string name="primary_color_value_text">צבע עיקרי: %1$s</string>
+    <string name="primary_dark_color_value_text">צבע עיקרי כהה: %1$s</string>
+    <string name="accent_color_value_text">צבע מודגש: %1$s</string>
+    <string name="application_name_text">שם יישום</string>
+    <string name="preview_text_accent_color">צבע מודגש</string>
+    <string name="preview_text_normal_text">טקסט רגיל</string>
+
+
+    <!--Menu strings-->
+    <string name="add_image_menu">הוסף תמונה</string>
+    <string name="load_selected_colors_menu">טען צבעים שנבחרו</string>
+    <string name="swap_main_colors_menu">החלף צבעים עיקריים</string>
+    <string name="menu_item_delete">מחק</string>
+    <string name="crop_image_menu">גזור תמונה להתאמה</string>
+
+
+
+    <!--General dialog and toast strings-->
+    <string name="save_to_db_title">שמור לוח צבעים</string>
+    <string name="error_name_too_long">השם חייב להכיל 3 אותיות לכל הפחות!</string>
+    <string name="error_palette_exists">לוח צבעים בשם זה כבר קיים. אנא בחר שם אחר</string>
+    <string name="saved_palettes_label">לוחות שמורים</string>
+    <string name="bright_color_selected_dialog_title">הצבע הנבחר בהיר מדי</string>
+    <string name="bright_color_dialog_message">בחרתם צבע בהיר מדי על מנת להשתלב טוב עם כותרת לבנה או רכיבי Toolbar לבנים אחרים.
+        \n\nבמידה ותחליטו להשתמש בצבע הזה בתור צבע עיקרי בפרוייקט שלכם, אנו ממליצים לשקול שימוש בערכת נושא Material.Light or AppCompat.Light עבור רכיבים של App/Toolbar.</string>
+    <string name="too_bright_color_button_dismiss">לקחתי לתשומת ליבי</string>
+    <string name="no_show_again">אל תציג שנית</string>
+    <string name="select_image_activity_dialog_title">בחר דרך מועדפת לטעינת צבעים מתמונה</string>
+    <string name="active_color_spinner_title">צבע פעיל:</string>
+    <string name="save_palette_dialog_message_text">אנא בחרו שם עבור לוח צבעים זה.\nשם חייב להיות באנגלית וחייב להיות מורכב לכל הפחות משלוש אותיות.\n\nהשתדלו לבחור שם בעל משמעות, על מנת להקל על זיהוי לוח צבעים זה בעתיד.</string>
+    <string name="enter_palette_name_hint">הזן שם של לוח צבעים</string>
+    <string name="added_to_db_toast">%1$s הוסף בהצלחה למסד נתונים</string>
+    <string name="nothing_to_upload_up_to_date_toast">אין פריטים חדשים שמורים.\n\nשמור לוחות חדשים ונסה שנית.</string>
+    <string name="no_show_selected_dialog_text">טעינת צבעים מתמונה תתבצע בדרך זו מעתה.\nניתן לבחור באופציה אחרת או לאפס הגדרה זו מהגדרות היישום.</string>
+
+
+    <!--Preferences strings-->
+    <string name="drive_support_pref_summary_off">תמיכה בDrive מבוטלת</string>
+    <string name="drive_support_pref_summary_on">תמיכה בDrive מופעלת</string>
+    <string name="drive_support_pref_title">הפעל תמיכה בDrive</string>
+    <string name="drive_integration_pref_category">שילוב Google Drive</string>
+    <string name="app_defaults_pref_category">הגדרות ברירת מחדל</string>
+    <string name="too_bright_pref_summary_off">אזהרה לא תוצג. שימו לב שהצבעים שבחרתם קריאים</string>
+    <string name="too_bright_pref_summary_on">אזהרה תוצג במידה וצבעים שנבחרו בהירים מדי עבור רכיבי action bar לבנים</string>
+    <string name="too_bright_pref_title">אזהרת צבע בהיר מדי</string>
+    <string name="image_activity_pref_summary_off">יוצג חלון קופץ לבחירת דרך מועדפת לטעינת צבעים מתמונה</string>
+    <string name="image_activity_pref_summary_on">בחר דרך לטעינת צבעים</string>
+    <string name="image_activity_master_switch_pref_title">דרך בחירת צבעים מוגדרת מראש</string>
+    <string name="image_activity_select_list_pref_title">בחרו מה קורה לתמונות</string>
+    <string name="pref_category_feedback">נשמח למשוב</string>
+    <string name="rate_on_play_pref_title">דרג אותנו ב- Google Play</string>
+    <string name="email_pref_title">שלח מייל למפתח</string>
+    <string name="no_app_installed">לא נמצא יישום לביצוע פעולה זו</string>
+
+
+    <!--Drive related strings-->
+    <string name="client_connected_toast">קליינט של Driveמחובר</string>
+    <string name="backup_saved_palettes_to_drive">גיבוי לוחות לDrive</string>
+    <string name="backup_options">אפשרויות גיבוי</string>
+    <string name="button_later">מאוחר יותר</string>
+    <string name="button_enable">בפעל</string>
+    <string name="enable_drive_dialog_message">אנו מאד ממליצים להפעיל את התמיכה בDrive. אנו לא נגע בקבצים האישיים שלכם.\n\nאנו עובדים אך ורק עם לוחות שנשמרו באמצעות יישום זה.\n\nהפעלת תמיכה בDrive מאפשרת לכם לגבות לוחות מסויימים או כל הלוחות כולל קובץ תצוגה מקדימה וקובץ colors.xml, כך שהם יהיו זמינים לשימושכם דרך קליינט במחשב האישי להעתקה ישירה לפרוייקט בסטודיו או אקליפס.\n\nכמו כן, זה מאפשר לכם לטעון צבעים מכל לוח שנשמר בדרייב ישירות לתוך העורך של היישום.</string>
+    <string name="enable_drive_dialog_title">הפעל שילוב של Google Drive</string>
+    <string name="failed_to_connect_to_drive_toast">החיבור לDrive לא הצליח</string>
+    <string name="fetching_palette_progress_dialog_title">טוען לוח צבעים</string>
+    <string name="please_wait_progress_dialog_message">אנא המתן…</string>
+    <string name="connecting_to_client_progress_dialog_title">מתחבר לDrive</string>
+    <string name="backup_notification_content_title">גיבוי לוחות צבעים</string>
+    <string name="backup_notification_complete">העלאה הושלמה</string>
+    <string name="backup_notification_backup_in_progress">מתבצעת העלאה…</string>
+    <string name="backup_notification_uploading_palette">מגבה %1$s</string>
+    <string name="failed_to_create_preview_image">"לא הצליח ליצור תצוגה מקדימה עבור %1$s: "</string>
+    <string name="failed_to_create_xml_file">"לא הצליח ליצור colors.xml for %1$s: "</string>
+    <string name="successfully_uploaded_palette">הועלה בהצלחה: %1$s</string>
+    <string name="failed_to_create_folder">"לא התליח ליצור תיקייה %1$s: "</string>
+    <string name="all_backed_up_successfully">כל הלוחות הועלו בהצלחה</string>
+    <string name="some_problem_with_backup">העלאה של חלק מהלוחות נכשלה.</string>
+    <string name="failed_to_retrieve_saved_from_drive">"לא התליח לטעון לוחות שמורים בDrive. סיבה: "</string>
+    <string name="palette_already_on_drive">לוח %1$s כבר קיים בDrive.</string>
+    <string name="cancelling_backup_toast">מבטל גיבוי…</string>
+    <string name="drive_upload_report_dialog_title">דוח גיבוי לוחות</string>
+    <string name="no_info_available_upload_report">המידע אינו זמין</string>
+    <string name="backup_began_toast">הגיבוי החל. ניתן להמשיך את העבודה כרגיל.</string>
+    <string name="upload_incomplete">העלאה לא הושלמה</string>
+    <string name="upload_successful">העלאה הושלמה</string>
+
+
+    <!--Widget strings-->
+    <string name="widget_title">לוחות צבעים שלי</string>
+    <string name="widget_item_description">פריט ווידג\'ט, תצוגה של לוח צבעים בודד</string>
+
+
+    <!--Invite strings-->
+    <string name="invite_title">הזמן חברים להשתמש ביישום</string>
+    <string name="invite_message">נסה יישום \'Material Palette\'</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="9"
+              tools:context="com.wubydax.materialpalette.MainViewFragment"
+              tools:showIn="@layout/content_main">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/fragment_main_view_preview_container_margin"
+        android:layout_weight="5">
+
+        <include
+            android:id="@+id/screenshotContainer"
+            layout="@layout/preview_layout"
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="@dimen/nav_drawer_width"
+            android:layout_centerInParent="true"
+            />
+        <FrameLayout
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="@dimen/nav_drawer_width"
+            android:background="@drawable/preview_frame"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/color_picker_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <include
+        layout="@layout/palette_values_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+
+</LinearLayout>

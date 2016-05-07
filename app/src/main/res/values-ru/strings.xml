@@ -1,0 +1,128 @@
+<resources>
+
+    <!--Accessibility strings-->
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="image_for_direct_color_select_content_desc">Изображение для выбора цветов</string>
+    <string name="saved_palette_preview_content_desc">Изображение сохранённой палитры</string>
+    <string name="preview_image_status_bar_content_description">Изображения строки состояния</string>
+    <string name="tool_bar_background_image_desc">Изображение тулбара</string>
+    <string name="navigation_drawer_header_image_content_desc">Головное изображения панели навигации</string>
+
+
+
+    <!--Navigation drawer menu strings-->
+    <string name="create_new_palette">Новая палитра (сброс цветов)</string>
+    <string name="saved_palettes">Сохранённые палитры</string>
+    <string name="load_palette_from_drive">Загрузить палитру с Диска</string>
+    <string name="load_palette_from_image">Палитра с изображения</string>
+    <string name="more">Другие акции</string>
+    <string name="settings">Настройки</string>
+    <string name="share_preview_image">Послаить изображение палитры</string>
+    <string name="send_color_xml_file">Послаить файл colors.xml</string>
+    <string name="intent_chooser_share_file">Переслать через</string>
+    <string name="capture_image_drawer_item">Сфотографировать</string>
+    <string name="send_invite">Послать App-Invites</string>
+
+    <!--Main view fragment editor strings-->
+    <string name="primary_color_picker_text">Основной цвет</string>
+    <string name="accent_color_picker_text">Акцентированный цвет</string>
+    <string name="palette_hex_values_title">Значения в Hex</string>
+    <string name="primary_color_value_text">Основной: %1$s</string>
+    <string name="primary_dark_color_value_text">Затемнённый: %1$s</string>
+    <string name="accent_color_value_text">Акцентированный: %1$s</string>
+    <string name="application_name_text">Имя приложения</string>
+    <string name="preview_text_accent_color">Акцентированный цвет</string>
+    <string name="preview_text_normal_text">Обычный текст</string>
+
+
+    <!--Menu strings-->
+    <string name="add_image_menu">Добавить изображение</string>
+    <string name="load_selected_colors_menu">Загрузить избранные цвета</string>
+    <string name="swap_main_colors_menu">Поменять цвета местами</string>
+    <string name="menu_item_delete">Удалить</string>
+    <string name="crop_image_menu">Обрезать картинку</string>
+
+
+
+    <!--General dialog and toast strings-->
+    <string name="save_to_db_title">Сохранение в базу данных</string>
+    <string name="error_name_too_long">Имя палитры должно состоять как минимум из 3 букв</string>
+    <string name="error_palette_exists">Палитра под этим именем уже сохранена. Пожалуйста, выберете иное имя.</string>
+    <string name="saved_palettes_label">Сохранённые палитры</string>
+    <string name="bright_color_selected_dialog_title">Слишком яркий цвет</string>
+    <string name="bright_color_dialog_message">Избранный вами основной цвет является слишком ярким для использования в сочетании с белыми структурами на app/toolbar.
+        \n\nЕсли вы решите все-таки использовать этот цвет как основной, вам скорее всего придётся пользоаться темами Material.Light или AppCompat.Light для элементов appbar.</string>
+    <string name="too_bright_color_button_dismiss">Понял</string>
+    <string name="no_show_again">Больше не показывать</string>
+    <string name="select_image_activity_dialog_title">Выберете желаемый метод для работы с изображениями</string>
+    <string name="active_color_spinner_title">Активный цвет:</string>
+    <string name="save_palette_dialog_message_text">Пожалуйста, выберете название палитры.\nОно должно состоять как минимум из 3-ёх букв.\n\nПостарайтесь, чтобы название имело смысл. Это поможет вам различать сохранённые палитры в будущем.</string>
+    <string name="enter_palette_name_hint">Введите название палитры</string>
+    <string name="added_to_db_toast">%1$s успешно сохранено</string>
+    <string name="nothing_to_upload_up_to_date_toast">Новых палитр не найдено.\n\nСохраните новые палитры и попробуйте вновь.</string>
+    <string name="no_show_selected_dialog_text">Избранный метод будет использован по умолчанию для работы с изображениями.\nВы можете изменить этот вариант через Настройки.</string>
+
+
+    <!--Preferences strings-->
+    <string name="drive_support_pref_summary_off">Поддержка Диска отключена</string>
+    <string name="drive_support_pref_summary_on">Поддержка Диска включена</string>
+    <string name="drive_support_pref_title">Поддержка Диска</string>
+    <string name="drive_integration_pref_category">Интеграция Гугл Диска</string>
+    <string name="app_defaults_pref_category">Настройки по умолчанию</string>
+    <string name="too_bright_pref_summary_off">Без предупреждения. Убедитесь, что в окне предварительного просмотра цвета читаемы</string>
+    <string name="too_bright_pref_summary_on">Диалоговое окно с предупреждением будет показано, если избранный цвет слишком яркий</string>
+    <string name="too_bright_pref_title">Предупреждение о слишком ярком цвете</string>
+    <string name="image_activity_pref_summary_off">Вам будет предоставлен выбор метода работы с изображениями</string>
+    <string name="image_activity_pref_summary_on">Выберете метод по умолчению для работы с изображениями</string>
+    <string name="image_activity_master_switch_pref_title">Предустановленная работа с изображениями</string>
+    <string name="image_activity_select_list_pref_title">Выберете метод по умолчанию</string>
+    <string name="pref_category_feedback">Будем рады вас слышать</string>
+    <string name="rate_on_play_pref_title">Оцените нас на Google Play</string>
+    <string name="email_pref_title">Мэйл для предложений и рапортов</string>
+    <string name="no_app_installed">Не найдено приложение для исполнения этой акции</string>
+
+
+    <!--Drive related strings-->
+    <string name="client_connected_toast">Клиент Диска подключён</string>
+    <string name="backup_saved_palettes_to_drive">Сделать бэкап на Диск</string>
+    <string name="enable_drive_dialog_message">Мы очень рекомендуем включить обеспечение для Диска. Мы не тронем ваши личные файлы.\n\nМы работаем исключительно с палитрами, созданными этим приложением.\n\nПоддержка Google Drive даст вам возможность сохдать резервные копии ваших сохранённых палитр (в одиночку или всех сразу), таким образом они будут доступны вам через ПК-Клиент для Диска и вы сможете скопировать colors.xml прямо в Андроид Студио или Эклипс.\n\nТакже, вы получите возможность загрузить цвета сохранённых вами палитр с любого устройства, подключённого к данному аккаунту.</string>
+    <string name="enable_drive_dialog_title">Интеграция Гугл Диска</string>
+    <string name="backup_options">Варианты  бэкапа</string>
+    <string name="button_later">Попозже</string>
+    <string name="button_enable">Включить</string>
+    <string name="failed_to_connect_to_drive_toast">Не удалось подулючиться к диску</string>
+    <string name="fetching_palette_progress_dialog_title">Скачиваем палитру</string>
+    <string name="please_wait_progress_dialog_message">Пожалуйста подождите…</string>
+    <string name="connecting_to_client_progress_dialog_title">Подключаемся к Диску</string>
+    <string name="backup_notification_content_title">Бэкап палитр</string>
+    <string name="backup_notification_complete">Загрузка завершена</string>
+    <string name="backup_notification_backup_in_progress">Загрузка в процессе…</string>
+    <string name="backup_notification_uploading_palette">Загружаем %1$s</string>
+    <string name="failed_to_create_preview_image">"Не удалось создать изображение %1$s: "</string>
+    <string name="failed_to_create_xml_file">"Не удалось создать файл colors.xml для %1$s: "</string>
+    <string name="successfully_uploaded_palette">Успешно загрузили: %1$s</string>
+    <string name="failed_to_create_folder">"Не удалось создать папку %1$s: "</string>
+    <string name="all_backed_up_successfully">Успешная загрузка</string>
+    <string name="some_problem_with_backup">Мы не смогли загрузитьт некоторые палитры.</string>
+    <string name="failed_to_retrieve_saved_from_drive">"Не удалось получить инфо о палитрах на Диске. Причина: "</string>
+    <string name="palette_already_on_drive">Палитра %1$s уже на Диске.</string>
+    <string name="cancelling_backup_toast">Отменяем бэкап…</string>
+    <string name="drive_upload_report_dialog_title">Рапорт о загрузке на Диск</string>
+    <string name="no_info_available_upload_report">Информация не доступна</string>
+    <string name="backup_began_toast">Пошла загрузка. Вы можете продолжать работу.</string>
+    <string name="upload_incomplete">Не полная загрузка</string>
+    <string name="upload_successful">Загрузка завершена</string>
+
+
+    <!--Widget strings-->
+    <string name="widget_title">Мои палитры</string>
+    <string name="widget_item_description">Единая палитра на виджете</string>
+
+    <!--Invite strings-->
+    <string name="invite_title">Пригласите друзей</string>
+    <string name="invite_message">Попробуйте приложение \'Material Palette\'</string>
+
+
+
+</resources>

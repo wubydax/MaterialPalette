@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "utility-inquiry-127012",
+    "project_number": "476051814001",
+    "name": "Material Palette"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476051814001:android:82130b1c7679e1d2",
+        "client_id": "android:com.wubydax.materialpalette",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.wubydax.materialpalette",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476051814001-0t62boa95uo4e2b7qu2dm097jaribaqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wubydax.materialpalette",
+            "certificate_hash": "6D7DD063A88C24A0CE0DC9DA336D1113DF4B68AA"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-76485479-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

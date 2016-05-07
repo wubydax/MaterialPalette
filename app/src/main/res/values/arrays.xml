@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_display_activity_items">
+        <item>Choose any color from selected image</item>
+        <item>Generate palette using Palette library</item>
+    </string-array>
+    <string-array name="image_display_activity_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="spinner_items">
+        <item>Primary color</item>
+        <item>Accent color</item>
+    </string-array>
+    <string-array name="drive_options_items">
+        <item>Choose single palette</item>
+        <item>Backup all saved palettes</item>
+    </string-array>
+
+</resources>

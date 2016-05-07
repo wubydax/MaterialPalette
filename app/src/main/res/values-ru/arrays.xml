@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_display_activity_items">
+        <item>Свободный выбор цвета с изображения</item>
+        <item>Сформировать палитру с использованием библиотеки Palette</item>
+    </string-array>
+    <string-array name="image_display_activity_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="spinner_items">
+        <item>Основной цвет</item>
+        <item>Акцентированный цвет</item>
+    </string-array>
+    <string-array name="drive_options_items">
+        <item>Выберите единую палитру</item>
+        <item>Резервное копирование всех сохраненных палитр</item>
+    </string-array>
+
+</resources>
